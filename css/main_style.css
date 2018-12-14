@@ -1,0 +1,272 @@
+html{
+	font-family: sans-serif;
+	background-color:gray;
+	height:100%;
+	width:100%;
+	background-image: url("../images/chain.jpg");
+}
+
+
+header{
+	padding-top: 1%;
+	margin-left:8%;
+	margin-bottom:-1%;
+	/*background-color:white;*/
+	/*opacity:.98;*/
+}
+
+footer{
+	margin-top:5%;
+	text-align:center;
+}
+footer > div{
+	background-color:white;
+}
+fieldset{
+	width:50%;
+	margin:auto;
+	margin-top:3%;
+	background-color:white;
+	border-style:outset;
+	text-align:center;
+}
+.trainerPic{
+	max-width:80%;
+}
+.trainerPicTwo{
+	max-width:30%;
+}
+.contentBorder{
+	border-style: outset;
+	text-align: center;
+	margin-top: .5%;
+	margin-bottom: .5%;
+	width: 100%;	
+	background-color:white;
+	padding:1.5% 0 1.5% 0;
+}
+.requiredFieldsColor{
+	color:red;
+}
+.flex{
+	display:flex;
+}
+.solid{
+	background-color:white;
+	border-style:outset;
+	margin: 2% 30% 0 30%;
+	text-align:center;
+}
+.flexOne{
+	display:flex;
+	justify-content:space-between;
+	margin: 0 .5% 0 .5%;
+}
+div > h2{
+	text-align:center;
+	font-size: 30px;
+}
+div>p{
+	padding-left:5%;
+	padding-right:5%;
+	font-size:20px;
+	text-align:center;
+}
+
+.width{
+	padding:2%;
+	max-width:50%;
+	height:auto;
+	margin: 0 20% 0 20%;
+}
+
+footer > div{
+	margin:auto;
+	width:80%;
+	justify-content:space-between;
+	display: flex;
+}
+.headerFlex{
+	display:flex;
+}
+.divMargin{
+	margin:auto;
+	width:60%;
+	height:60%;
+	border-style:outset;
+}
+.footerFlex{
+	flex: 1 1 25%;
+	border-style:outset;
+	justify-content:space-around;
+}
+.storeFlex{
+	display:flex;
+	width:80%;
+	flex-direction: column;
+	justify-content:space-around;
+}
+.itemFlex{
+	flex: 1 1 25%;
+	border-style:solid;
+}
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+}
+
+.navbar a {
+	font-weight: bold;
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: .5% .5% .5% .5%;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background: #ff6e00;
+	color: black;
+}
+
+.main {
+	padding: 16px;
+	margin-top: 30px;
+	height: 1500px;
+}
+#victoria{
+	color:red;
+}
+.joey{
+	color:blue;
+}
+.bryan{
+}
+.indexFlex{
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin:auto;
+	background-color:white;
+}
+
+.trainerFlex{
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin:auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.trainerFlexTwo{
+	display:flex;
+	flex-wrap:wrap;
+	align-items: center;
+}
+.trainerFlexThree{
+	flex: 1 1 25%;
+	justify-content:space-around;
+}
+.storeFlexThree{
+	flex: 1 1 25%;
+	justify-content:space-around;
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:active {
+	background-color: #2a99d5;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	transform: translateY(3px);
+}
+.button {
+    background-color: #2a99d5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	font-weight:bold;
+    margin: 1%;
+    cursor: pointer;
+    transition-duration: .25s;
+}
+.container{
+	border-style:solid;
+	padding-left: 5%;
+}
+
+
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+    padding: 2%;
+    width: 100%;
+    background: #2a99d5;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px ;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+}
+
+.days {
+    padding: 0 0 0 0;
+    background: #eee;
+    margin: 0;
+	text-align:center;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    padding-bottom: 5%;
+	margin:1% .5% 0 .5%;
+    font-size:12px;
+	border-style:solid;
+	border-width:thin;
+	/*height:13.6%;*/
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+
